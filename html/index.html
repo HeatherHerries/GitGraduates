@@ -8,41 +8,46 @@
       src="https://kit.fontawesome.com/c6a6c76434.js"
       crossorigin="anonymous"
     ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/CSS/style.css" />
     <title>Git Graduates</title>
   </head>
   <body>
     <header>
       <div class="navbar">
-        <h1 class="logo">
-          <span
-            ><i class="fa-solid fa-graduation-cap"></i> Git Graduates🧑‍🎓👩‍🎓</span
-          >
-        </h1>
-        <div>
-          <ul>
-            <li><a href="#home">Home🏚️</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <ul class="nav-list">
+            <li class="nav-item"><h1><span
+              ><i class="fa-solid fa-graduation-cap"></i> Git Graduates</span></h1></li>
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
+            <li class="nav-item"><a href="#">Contact</a></li>
           </ul>
-        </div>
-        <div>
-          <h2>Let's Learn Git</h2>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="intro">
+          <h2 class="intro-heading">Let's Learn Git</h2>
           <p>
             Lets learn git and all of the basic and important commands. Git is
             very important so we can have version control on our projects.
           </p>
-          <h3>Basic Git Commands</h3>
-          <p>
-            🎈Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque
-            delectus reprehenderit cupiditate explicabo. Vel earum odit placeat.
-            Molestias vitae atque reprehenderit possimus nemo nam in ipsa
-            doloremque, maiores aliquid aspernatur ducimus qui dignissimos
-            beatae. Magni hic laborum aliquam quo saepe.🎈
-          </p>
         </div>
-      </div>
-    </header>
+      </section>
+
+      <section>
+          <div class="git-commands">
+            <h3>Basic Git Commands</h3>
+            <ul>
+              <li><span>git init </span> This will initialize any directory to be tracked by git.</li>
+              <li><span>git add </span> This will add tracked directories to the staging area.</li>
+            </ul>
+          </p>
+        </div>  
+      </section>
+    </main> 
+    
     <script src="/gitGrad.js"></script>
   </body>
 </html>
